@@ -1,0 +1,35 @@
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --another-text-color: #ffffff;
+    --main-bgr-color: #FFFFFF;
+    --secondary-bgr-color: #2F303A;
+    --section-bgr-color: #F5F4FA;
+    --akcent-color: #2196F3;
+}
+
+body {
+    background-color: var(--main-bgr-color);
+    color: var(--primary-text-color);
+}
+
+.list {
+    list-style: none;
+}
+
+.web {
+    color: var(--akcent-color);
+}
+
+.studio {
+    color: #000;
+}
+
+.link {
+    color: var(--title-text-color);
+}
+
+.nav .link:hover,
+.nav .link:focus {
+    color: var(--akcent-color);
+}
