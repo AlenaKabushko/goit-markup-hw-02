@@ -17,6 +17,8 @@ body {
     list-style: none;
 }
 
+/* navigation */
+
 .web {
     color: var(--akcent-color);
 }
@@ -25,11 +27,75 @@ body {
     color: #000;
 }
 
-.link {
+.nav .link {
     color: var(--title-text-color);
 }
 
 .nav .link:hover,
 .nav .link:focus {
+    color: var(--akcent-color);
+}
+
+.contacts .link {
+    color: var(--primary-text-color);
+}
+
+.contacts .link:hover,
+.contacts .link:focus {
+    color: var(--akcent-color);
+}
+
+/* hero */
+
+.hero {
+    background-color: var(--secondary-bgr-color);
+}
+
+.hero .title {
+    color: var(--another-text-color);
+}
+
+.hero-btn {
+    background-color: var(--akcent-color);
+    color: var(--another-text-color);
+}
+
+/* features */
+
+.features .list {
+    color: var(--title-text-color);
+}
+
+/* work */
+
+.title {
+    color: var(--title-text-color);
+}
+
+/* comand */
+
+.name {
+    color: var(--title-text-color);
+}
+
+/* footer */
+
+.footer {
+    background-color: var(--secondary-bgr-color);
+}
+.footer-studio {
+    color: var(--another-text-color);
+}
+
+.address {
+    color: var(--another-text-color);
+}
+
+.footer .link {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer .link:hover,
+.footer .link:focus {
     color: var(--akcent-color);
 }
