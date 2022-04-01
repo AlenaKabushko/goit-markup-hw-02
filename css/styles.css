@@ -62,7 +62,7 @@ body {
 
 /* features */
 
-.features .list {
+.features .features-list {
     color: var(--title-text-color);
 }
 
@@ -73,6 +73,10 @@ body {
 }
 
 /* comand */
+
+.comand {
+    background-color: var(--section-bgr-color);
+}
 
 .name {
     color: var(--title-text-color);
@@ -98,4 +102,21 @@ body {
 .footer .link:hover,
 .footer .link:focus {
     color: var(--akcent-color);
+}
+
+/* portfolio */
+
+.filter-btn {
+    background-color: var(--section-bgr-color);
+    color: var(--title-text-color);
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+    background-color: var(--akcent-color);
+    color: var(--another-text-color);
+}
+
+.examples .title {
+    color: var(--title-text-color);
 }
