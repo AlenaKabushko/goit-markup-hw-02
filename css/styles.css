@@ -11,6 +11,8 @@
 body {
     background-color: var(--main-bgr-color);
     color: var(--primary-text-color);
+
+    font-family: 'Roboto', sans-serif;
 }
 
 .list {
@@ -18,6 +20,15 @@ body {
 }
 
 /* navigation */
+
+.logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
 
 .web {
     color: var(--akcent-color);
@@ -27,8 +38,17 @@ body {
     color: #000;
 }
 
+.nav, .contacts {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
 .nav .link {
     color: var(--title-text-color);
+
+    text-decoration: none;
 }
 
 .nav .link:hover,
@@ -38,6 +58,8 @@ body {
 
 .contacts .link {
     color: var(--primary-text-color);
+
+    text-decoration: none;
 }
 
 .contacts .link:hover,
@@ -53,23 +75,57 @@ body {
 
 .hero .title {
     color: var(--another-text-color);
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 
 .hero-btn {
     background-color: var(--akcent-color);
     color: var(--another-text-color);
+
+    cursor: pointer;
+
+    font-weight: 700;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
 }
 
 /* features */
 
-.features .features-list {
+.features-list {
     color: var(--title-text-color);
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.features-description {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 }
 
 /* work */
 
 .title {
     color: var(--title-text-color);
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 /* comand */
@@ -80,6 +136,15 @@ body {
 
 .name {
     color: var(--title-text-color);
+
+    font-weight: 500;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.profession {
+    line-height: 1.19;
+    letter-spacing: 0.03em;
 }
 
 /* footer */
@@ -93,10 +158,21 @@ body {
 
 .address {
     color: var(--another-text-color);
+
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    font-style: normal;
 }
 
 .footer .link {
     color: rgba(255, 255, 255, 0.6);
+
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-decoration: none;
 }
 
 .footer .link:hover,
@@ -109,6 +185,8 @@ body {
 .filter-btn {
     background-color: var(--section-bgr-color);
     color: var(--title-text-color);
+
+    cursor: pointer;
 }
 
 .filter-btn:hover,
