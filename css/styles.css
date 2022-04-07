@@ -1,22 +1,24 @@
 :root {
     --primary-text-color: #757575;
     --title-text-color: #212121;
+    --title-hero-text-color: #ffffff;
     --another-text-color: #ffffff;
-    --main-bgr-color: #FFFFFF;
-    --secondary-bgr-color: #2F303A;
-    --section-bgr-color: #F5F4FA;
     --akcent-color: #2196F3;
+    --hero-bgr-color: #2F303A;
+    --footer-bgr-color: #2F303A;
 }
 
 body {
-    background-color: var(--main-bgr-color);
     color: var(--primary-text-color);
-
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', Tahoma, sans-serif;
 }
 
 .list {
     list-style: none;
+}
+
+.link {
+    text-decoration: none;
 }
 
 /* navigation */
@@ -27,54 +29,56 @@ body {
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    text-decoration: none;
-}
-
-.web {
+    
     color: var(--akcent-color);
 }
 
-.studio {
-    color: #000;
+.header-studio {
+    color: #000000;
 }
 
-.nav, .contacts {
+.nav-link {
+    color: var(--title-text-color);
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    cursor: pointer;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--akcent-color);
+}
+
+.nav-link-current {
+    color: var(--akcent-color);
+}
+
+.header-contacts-link {
+    color: var(--primary-text-color);
+
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
 
-.nav .link {
-    color: var(--title-text-color);
-
-    text-decoration: none;
-}
-
-.nav .link:hover,
-.nav .link:focus {
+.header-contacts-link:hover,
+.header-contacts-link:focus {
     color: var(--akcent-color);
 }
 
-.contacts .link {
-    color: var(--primary-text-color);
-
-    text-decoration: none;
-}
-
-.contacts .link:hover,
-.contacts .link:focus {
-    color: var(--akcent-color);
-}
-
-/* hero */
+/* ===================hero=================== */
 
 .hero {
-    background-color: var(--secondary-bgr-color);
+    background-color: var(--hero-bgr-color);
 }
 
-.hero .title {
-    color: var(--another-text-color);
+.hero-title {
+    color: var(--title-hero-text-color);
 
     font-weight: 900;
     font-size: 44px;
@@ -90,7 +94,9 @@ body {
 
     cursor: pointer;
 
+    font-family: inherit;
     font-weight: 700;
+    font-size: 16px;
     line-height: 1.88;
     display: flex;
     align-items: center;
@@ -98,12 +104,11 @@ body {
     letter-spacing: 0.06em;
 }
 
-/* features */
+/* ===================features=================== */
 
-.features-list {
+.features-title {
     color: var(--title-text-color);
 
-    font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
@@ -116,44 +121,51 @@ body {
     letter-spacing: 0.03em;
 }
 
-/* work */
+/* ===================work=================== */
 
-.title {
+.work-title {
     color: var(--title-text-color);
 
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
 }
 
-/* comand */
+/* ===================comand=================== */
 
-.comand {
-    background-color: var(--section-bgr-color);
+.comand-title {
+    color: var(--title-text-color);
+    
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
-.name {
+.comand-title-name {
     color: var(--title-text-color);
 
+    font-size: 16px;
     font-weight: 500;
     line-height: 1.19;
     letter-spacing: 0.03em;
 }
 
-.profession {
+.comand-profession {
+    font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
 }
 
-/* footer */
+/* ===================footer=================== */
 
 .footer {
-    background-color: var(--secondary-bgr-color);
+    background-color: var(--footer-bgr-color);
 }
+
 .footer-studio {
-    color: var(--another-text-color);
+    color: #ffffff;
 }
 
 .address {
@@ -162,28 +174,26 @@ body {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    text-decoration: none;
     font-style: normal;
 }
 
-.footer .link {
+.footer-link {
     color: rgba(255, 255, 255, 0.6);
 
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    text-decoration: none;
 }
 
-.footer .link:hover,
-.footer .link:focus {
+.footer-link:hover,
+.footer-link:focus {
     color: var(--akcent-color);
 }
 
-/* portfolio */
+/* *****************portfolio***************** */
 
 .filter-btn {
-    background-color: var(--section-bgr-color);
+    
     color: var(--title-text-color);
 
     cursor: pointer;
@@ -191,7 +201,7 @@ body {
 
 .filter-btn:hover,
 .filter-btn:focus {
-    background-color: var(--akcent-color);
+    
     color: var(--another-text-color);
 }
 
