@@ -6,6 +6,7 @@
     --filter-btn-text-color: #212121;
     --akcent-color: #2196F3;
     --hero-bgr-color: #2F303A;
+    --comand-bgr-color: #F5F4FA;
     --footer-bgr-color: #2F303A;
     --filter-btn-bgr-color: #F5F4FA;
 }
@@ -147,6 +148,10 @@ body {
 }
 
 /* ===================comand=================== */
+
+.comand {
+    background-color: var(--comand-bgr-color);
+}
 
 .comand-title {
     color: var(--title-text-color);
